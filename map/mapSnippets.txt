@@ -1,0 +1,4 @@
+## Usecase : Find if an element is present in a map, if present then increment the value, if not present then put the value as some default value
+
+myMap.merge(key, 1, Integer::sum) // This will put value 1 for the key in the myMap if the key isn't present in the map, if present it will increase it's value with Integer::sum
+
